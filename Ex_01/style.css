@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo{
+    background-color: rgb(255, 128, 0);
+    width: 100vw;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
