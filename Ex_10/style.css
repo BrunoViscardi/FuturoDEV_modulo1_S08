@@ -1,0 +1,99 @@
+:root{
+    --papel:#ece8dc;
+    --vermelho:#b47a76;
+    --azul:#4B4A67;
+    --verde:#307351;
+    --cinza: #CAC7C0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "segoe", sans-serif;
+}
+
+
+body{
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    font-size: 17.778px;
+}
+
+.margem{
+    width: 90px;
+    border-right: #b47a76 solid 3px;
+    background-color: var(--papel);
+    /* box-shadow: 10px 10px 20px var(--azul); */
+}
+
+.bodyConteudo{
+    width: 900px;
+    background-color: var(--papel);
+    /* box-shadow: 10px 10px 20px var(--azul); */
+}
+
+.containerTitulo{
+    border-bottom: 1px solid var(--cinza);
+    padding: 60px;
+}
+
+.titulo{
+    font-size: 60px;
+    color: var(--azul);
+}
+
+.subtitulo{
+    color: var(--verde);
+}
+
+.containerAdd{
+    border-bottom: 1px solid var(--cinza);
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, .tarefa{
+    all: unset;
+    border-bottom: 1px solid var(--cinza);
+    padding: 5px;
+    flex: 1;
+    padding-left: 20px;
+}
+
+#BotãoAdicionar{
+    background-color: var(--azul);
+    color: var(--papel);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#listaContainer{
+    border-bottom: 1px solid var(--cinza);
+    padding: 30px 60px;
+}
+
+.containerTarefa{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+
+}
+
+.botaoConcluido{
+    border: 2px solid var(--verde) ;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.botaoExcluir{
+    background-image: url('assets/lixo.png');
+    background-size: cover; 
+    width: 30px;
+    cursor: pointer;
+}
+
+
