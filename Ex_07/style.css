@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    margin: 5px 0;
+    background-color: rgb(255, 128, 0);
+    border: 5px rebeccapurple dotted;
+    width: 100vw;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
